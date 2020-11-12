@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="style.css">
 
     <!-- Fonts Google -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@700&family=Tinos:wght@700&display=swap" rel="stylesheet">
 
         <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -26,12 +27,14 @@
             <nav class="navbar">
                     <img src="img/logo.png" class="img-logo">
                 <a href="#header" class="logo"> Sena <span class="logo-highlight">.Blog</span></a>
-                <ul>
+                <ul class="nav-menu">
+                
                     <li><a href="#header">Inicio</a></li>
-                    <li><a href="#incoming-games">Próximos lanzamientos</a></li>
+                    <li><a href="#incoming-games">Destacados</a></li>
                     <li><a href="#noticias">Noticias</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#social-media">Redes</a></li>
                 </ul>
+                <i class="fas fa-bars menu-icon"></i>
             </nav>
 
             <div class="intro">
@@ -62,7 +65,7 @@
                 <p>Conviértete en un guerrero vikingo legendario criado entre relatos de batalla y gloria. Saquea a tus enemigos, desarrolla tu asentamiento y aumenta tu poder político en busca de ganar un lugar entre los dioses del Valhalla.</p>
             </div>
 
-            <div>
+            <div class="item-4">
                 <img src="img/card4.jpg" class="" alt="">
                 <h3>Final Fantasy XV</h3>
                 <p>Explora la tierra de Valisthea en la nueva entrega de la famosa saga de Square Enix</p>
@@ -96,7 +99,7 @@
                 <h3>Mortal Kombat 11</h3>
                 <p>Nuevos peleadores se unen al inmortal juego de combate</p>
             </div>   
-             <div>
+             <div class="item-4">
                 <img src="img/ps-plus.jpg" alt="">
                 <h3>Membresía PS Plus</h3>
                 <p>Averigua cuáles serán los nuevos juegos gratuitos del servicio de PlayStation</p>
@@ -105,19 +108,30 @@
 
     </section>
 
+    <footer id="social-media">
+        <hr class="hr-footer">
+        <div class="footer">
+            <h3 class="follow">Síguenos:</h3>
+            <a class="icon-fb" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a class="icon-twitter" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a class="icon-ig" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a class="icon-youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
 
-  
+        <div class="footer-2">
+            <p>©Copyright Pablo Sena 2020.</p>
+        </div>
+
+    </footer>
 
 
+        <!-- Scroll Reveal -->
+   <script src="https://unpkg.com/scrollreveal"></script>
 
-
-
+    <!-- Javascript -->
     <script src="script.js"></script>
+    
+
+
 </body>
 </html>
-
-
-
-
-<!-- Fuentes:
-Logo:poppins -->
